@@ -1,0 +1,17 @@
+.bill-split-container {
+  padding: 1.5rem 2rem;
+  background-color: #fff4e6;
+  border-radius: 5px;
+}
+
+.bill-split-container h2 {
+  color: #343a40;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+}
+
+.split-btn_container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}

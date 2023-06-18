@@ -1,0 +1,30 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 4rem 1fr auto;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding: 0.5rem 1rem;
+}
+
+.grid-container:hover {
+  background-color: #fff4e6;
+}
+
+.grid-container:active {
+  background-color: #ffe8cc;
+}
+
+.image-container {
+  border-radius: 50%;
+  height: 3.5rem;
+  width: 3.5rem;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+}
+
+.text-container h3 {
+  color: #343a40;
+}
