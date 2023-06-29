@@ -81,6 +81,7 @@ function App() {
             friends={friends}
             selected={selected}
             onSplit={handleSplitBill}
+            key={selected.id}
           />
         )}
       </div>
